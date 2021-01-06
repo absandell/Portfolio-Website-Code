@@ -1,0 +1,473 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.footer {
+  display: none;
+}
+
+#particles-js{
+    position: fixed;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    background: black;
+    background-size:cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.aboutbackground{
+    height:100%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: silver;
+}
+
+.text-js h2{
+    position:relative;
+    color:#DBE8E8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    overflow:hidden;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end);
+}
+
+@keyframes typing{
+    from{
+        width : 15;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+.menu{
+    height:100vh;
+    width:100%; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.logo{
+    margin-left:5px;
+    height:auto;
+    width:100px;
+}
+
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;  
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    font-size:160%;
+    text-decoration: none;
+    color: #06DAE4; 
+}
+
+nav ul li a:hover{
+    color: #DBE8E8;
+}
+
+.info{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-left:8%;
+    margin-top: 15%;
+}
+
+.info h1{
+    font-size: 70px;
+    color: #06DAE4;
+    margin-bottom: 20px;
+}
+
+span {
+    color:#DBE8E8;
+}
+
+.info p {
+    color: white;
+    line-height:22px;
+}
+
+.info a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 150%;
+    
+    background-color:transparent;
+    padding: 0;
+    text-decoration: none;
+    color: #06DAE4;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 0px;
+}
+
+.info a:hover{
+    color:white;
+}
+
+#headshot-frame{
+    margin-top:5%;
+    text-align:center;
+    padding:40px;
+    background-image:url("Headshot.png");
+    background-size:cover;
+    border-radius:50%;
+    position:absolute;
+}
+
+.about{
+    height:100%;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    position: relative;
+}
+
+.box{
+    border-radius:25px;
+    background: rgba(6,218,228,0.7);
+    padding:20px;
+    text-align:center;
+    margin:auto;
+    margin-top: 2%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-img{
+    border-radius:50%;
+    width:200px;
+    height: 200px;
+}
+
+.box-headimg{
+    align-content:center;
+    padding:10px;
+    border-radius:25px;
+    width:auto;
+    height:230px;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight:100;
+        
+}
+
+.box h2{
+    font-size:30px;
+    letter-spacing: 3px;
+    font-weight:100;
+}
+
+.box h3{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight:100;
+}
+
+.box h4{
+    opacity:90%;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight:100;
+}
+
+.box p{
+    padding-left:60px;
+    padding-right:60px;
+    font-size: 14px;
+    font-weight:100;
+}
+
+.box a{  
+    color:white;
+    font-size:20px;
+    font-weight:300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;  
+}
+
+.box a:hover{
+    opacity:60%;
+}
+
+.icon-bar {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); 
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 125%;
+}
+
+.icon-bar a:hover {
+  opacity: 0.7;
+}
+
+.facebook {
+    border-radius:50%;
+    background-color:transparent;
+    color: white;
+}
+
+.twitter {
+    border-radius:50%;
+    background-color:transparent;
+    color: white;
+}
+
+.linkedin {
+    border-radius:50%;
+    background-color:transparent;
+    color: white;
+}
+
+input[type=text], select, textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:vertical;
+}
+
+#submit {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    background-color: #06DAE4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color:#06DAE4;
+    background-color: white;
+}
+
+.form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-left:10%;
+    margin-right:10%;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 40px;
+}
+	
+.tile-page {
+    float:left;
+    position:relative;
+    width:19.6vw;
+    height:19.6vw;
+}
+
+.tile-inner {
+    position:absolute;
+    left:10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+    box-shadow:0 4px 20px rgba(0, 0, 0, 0);
+    border-radius:2px;
+}
+
+.tile-inner img {
+    border-radius:25px;
+    height:auto;
+    width:100%;
+}
+
+.tile-inner:hover img {
+    opacity:60%;
+}
+
+.tile-inner a {
+    text-decoration:none;
+}
+
+.tile-inner .textBox {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align:center;
+    position: relative;
+    left: 0;
+    right: 0;
+    font-size:20px;
+    text-decoration: none;
+    color:#06DAE4;
+    background: transparent;
+}
+
+.tile-inner .textBox:hover {
+    color:white;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.displayed-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align:center;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    top: 35%;
+    left: 50%;
+    margin:0;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.tile-inner:hover .text-overlay {
+    opacity:1;
+}
+
+.back-button {
+    font-weight:200;
+    font-size:25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    background-color: #06DAE4;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color:#06DAE4;
+    background-color: white;
+}
+
+.port-buttons {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.previous {
+    border-radius:40%;
+    position:relative;
+    padding: 8px 16px;
+    text-align: center;
+    font-size:40px;
+    text-decoration:none;
+    background-color: transparent;
+    color: white;
+}
+
+.previous:hover {
+    text-decoration:none;
+    background-color: #ddd;
+    color: black;
+}
+
+.next {
+    border-radius:40%;
+    position:relative;
+    padding: 8px 16px;
+    text-align: center;
+    font-size:40px;
+    text-decoration:none;
+    background-color: transparent;
+    color: white;
+}
+
+.next:hover{
+    text-decoration:none;
+    background-color: #ddd;
+    color: black;
+}
+
+#buttonwrapper{
+    padding:20px;
+    display:flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width : 480px) {
+      /* Smartphone view: 1 tile */
+    .tile-page {
+        width: 100vw;
+        height: 100vw;
+      }
+    }
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+      /* Tablet view: 2 tiles */
+      .tile-page {
+        width: 47.9vw;
+        height: 47.9vw;
+      }
+    }
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .tile-page {
+        width: 32.3vw;
+        height: 32.3vw;
+      }
+    }
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+      .tile-page {
+        width: 24.5vw;
+        height: 24.5vw;
+        }
+}
