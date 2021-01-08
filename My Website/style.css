@@ -221,7 +221,7 @@ span {
 
 .icon-bar {
     position: absolute;
-    top: 40px;
+    top: 70px;
     right: 0px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -254,6 +254,12 @@ span {
 }
 
 .linkedin {
+    border-radius:50%;
+    background-color:transparent;
+    color: white;
+}
+
+.github{
     border-radius:50%;
     background-color:transparent;
     color: white;
